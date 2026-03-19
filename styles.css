@@ -1,1 +1,37 @@
-/*  your css code here. If applicable */
+body {
+            background-color: rgb(204, 204, 204);
+            font-family: Arial;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .playlist {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        .playlist ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .player {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px;
+            text-align: center;
+        }
+
+ video {
+            width: 90%;
+            border-radius: 10px;
+        }
+
+        audio {
+            width: 90%;
+        }
