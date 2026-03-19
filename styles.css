@@ -1,37 +1,27 @@
+/* Body background */
 body {
-            background-color: rgb(204, 204, 204);
-            font-family: Arial;
-        }
+    background-color: rgb(204, 204, 204);
+}
 
-        h1 {
-            text-align: center;
-        }
+/* Center headings */
+h1, h2 {
+    text-align: center;
+}
 
-        .playlist {
-            background-color: white;
-            padding: 15px;
-            border-radius: 10px;
-            margin: 20px;
-        }
+/* Remove bullets */
+ul {
+    list-style-type: none;
+}
 
-        .playlist ul {
-            list-style-type: none;
-            padding: 0;
-        }
+/* Remove link underline */
+a {
+    text-decoration: none;
+}
 
-        .player {
-            background-color: white;
-            padding: 15px;
-            border-radius: 10px;
-            margin: 20px;
-            text-align: center;
-        }
-
-        video {
-            width: 90%;
-            border-radius: 10px;
-        }
-
-        audio {
-            width: 90%;
-        }
+/* Player boxes */
+.player_one, .player_two {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
