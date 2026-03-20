@@ -1,27 +1,46 @@
-/* Body background */
 body {
     background-color: rgb(204, 204, 204);
+    font-family: Arial, sans-serif;
 }
 
-/* Center headings */
+/* Headings */
 h1, h2 {
     text-align: center;
+}
+
+/* Playlist Box */
+.playlist-box {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
 }
 
 /* Remove bullets */
 ul {
     list-style-type: none;
+    padding: 0;
 }
 
-/* Remove link underline */
+/* Links style */
 a {
     text-decoration: none;
+    color: black;
 }
 
-/* Player boxes */
-.player_one, .player_two {
-    background-color: rgb(255, 255, 255);
-    padding: 20px;
-    border-radius: 10px;
+/* Video Player Box */
+.player_one {
+    background-color: white;
+    padding: 15px;
     margin: 20px;
+    border-radius: 10px;
+}
+
+/* Audio Player Box */
+.player_two {
+    background-color: white;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
 }
